@@ -71,7 +71,7 @@ def preferred_payment_methods(data, trade_type):
 
 def main(data_obj):
     st.header("DATA VISUALIZATION")
-    st.subheader("Top 10 Analytics Dashboard")
+    st.info("Based on Exports vs Imports Trade Types")
     trade_type = st.selectbox("Select Trade Type:", options=["Export", "Import"])
     
     col1, col2 = st.columns(2)
