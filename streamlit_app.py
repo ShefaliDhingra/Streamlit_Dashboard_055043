@@ -1,10 +1,8 @@
 # General import section
-import pandas as pd #to work with dataframes
-import streamlit as st #streamlit backend
-from io import StringIO #to read data files as .csv correctly
-import os #to work with files
-import seaborn as sns #for plotting
-import matplotlib.pyplot as plt #to configure plots
+import pandas as pd 
+import streamlit as st 
+from io import StringIO 
+import os 
 
 # Streamlit main page configuration
 st.set_page_config(page_title="DEVP Dashboard",
