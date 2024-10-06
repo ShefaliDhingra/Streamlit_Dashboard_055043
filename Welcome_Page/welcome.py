@@ -16,4 +16,4 @@ def main():
                 """)
     
     st.subheader("Source code")
-    st.markdown("It can be found via navigating to the menu in the top right corner and pressing 'View App Source'")
+    st.markdown("It can be found via navigating to the menu in the top right corner and pressing Github Icon")
