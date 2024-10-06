@@ -16,6 +16,7 @@ import Welcome_Page
 import Data_Preview
 import Data_Visualization
 import Observations
+import Managerial_Insights
 
 # Data object class
 class DataObject():
@@ -40,7 +41,7 @@ class Interface():
       dt_obj.Non_Categorical_Variables=dt_obj.df.Quantity+dt_obj.df.Value+dt_obj.df.Weight
       
         # Side bar navigation menu with a select box
-      menu = ['Welcome Page','Data Preview','Data Visualization','Observations']
+      menu = ['Welcome Page','Data Preview','Data Visualization','Observations','Managerial Insights']
       navigation = st.sidebar.selectbox(label="Select menu", options=menu)
 
         # Runs 'Data Preview' app
@@ -55,18 +56,19 @@ class Interface():
       elif navigation == 'Observations':
         with st.container():
           Observations.observations()
-          
+
+      elif navigation == 'Managerial Insights':
+        with st.container():
+          Managerial_Insights.managerial_insights()
+      
       else:
         Welcome_Page.welcome()
         
 def main():
   """
   Main and its Streamlit configuration
-  """
-
-  # Creating an instance of the original dataframe data object                   
+  """            
   data_main = DataObject()
-  # Creating an instance of the main interface
   interface = Interface()
   interface.side_bar(data_main)
 
