@@ -3,7 +3,7 @@ It is designed to provide data-driven insights through interactive visualization
 Dashboard Link : [https://055043dashboard.streamlit.app/]
 About the Project
 
-This dashboard takes a random sample of 3001 entries with a random state of 55043. It offers an interactive way to analyze data trends, visualize key metrics, and draw actionable managerial insights. The project is built using Streamlit and is meant to assist in exploring datasets for trade trend analysis.
+This dashboard takes a random sample of 3001 entries with a random state of 55043. It offers an interactive way to analyze data trends, visualize key metrics, and draw actionable managerial insights. The project is built using Streamlit.
 
 The dashboard includes the following sections:
 
