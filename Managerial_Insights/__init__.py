@@ -1,1 +1,1 @@
-from .data_preview import main as data_preview
+from .managerial_insights import main as managerial_insights
